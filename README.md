@@ -87,12 +87,12 @@
 * Satisfação do cliente
 
 
-## 1 Product Owner (PO)
+# 1 Product Owner (PO)
 ## Caio Arnoni 
 
-## 2 Scrum Master (SM)
+# 2 Scrum Master (SM)
 ## Taina cunha
 
-## 3 Equipe de Desenvolvimento
+# 3 Equipe de Desenvolvimento
 ## Guilherme Matias
 
