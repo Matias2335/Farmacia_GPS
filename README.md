@@ -147,6 +147,10 @@
 *	Obter índice de satisfação do cliente (NPS) superior a 60 pontos, considerado bom desempenho.
 *	Manter taxa de erro na validação de receitas inferior a 10%, assegurando qualidade e conformidade básica
 
+# BACKLOG 
+
+[Histórias de Usuário_LAB03.pdf](https://github.com/user-attachments/files/25459607/Historias.de.Usuario_LAB03.pdf)
+
 
 # 1 Product Owner (PO)
 ## Caio Arnoni 
