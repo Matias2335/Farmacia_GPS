@@ -155,7 +155,8 @@
 
 ## - Diagrama de Casos de Usos
 
-<img width="918" height="691" alt="image" src="https://github.com/user-attachments/assets/4118f487-1fcf-41fd-9319-36be0eba4b25" />
+<img width="708" height="682" alt="image" src="https://github.com/user-attachments/assets/dcffa2a9-fd32-408a-94da-88e578dd96ae" />
+
 
 
 
