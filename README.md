@@ -172,6 +172,78 @@
 | **Fluxo Exceção** | **4. Dados inválidos:**<br>a) Sistema identifica erro nos dados;<br>b) Sistema exibe mensagem;<br>c) Cliente corrige informações. |
 
 
+## UC02 – Visualizar Catálogo
+
+| **Identificação** | **UC02 – Visualizar Catálogo** |
+|---|---|
+| **Função** | Permitir que o cliente visualize medicamentos disponíveis no sistema. |
+| **Atores** | Cliente |
+| **Pré-condição** | Cliente autenticado no sistema. |
+| **Pós-condição** | Produtos visualizados e disponíveis para seleção. |
+| **Fluxo Principal** | **1. Navegar catálogo:**<br>a) Cliente acessa catálogo;<br>b) Sistema apresenta lista de produtos;<br>c) Cliente visualiza detalhes;<br>d) Cliente pode selecionar produto. |
+| **Fluxo Alternativo** | **2. Buscar produto:**<br>a) Cliente digita nome do medicamento;<br>b) Sistema filtra resultados;<br>c) Sistema exibe produtos encontrados. |
+| **Fluxo Exceção** | **3. Produto indisponível:**<br>a) Sistema identifica ausência de estoque;<br>b) Sistema informa indisponibilidade. |
+
+## UC03 – Realizar Compra
+
+| **Identificação** | **UC03 – Realizar Compra** |
+|---|---|
+| **Função** | Permitir que o cliente selecione produtos, envie receita quando necessário e finalize uma compra pelo aplicativo. |
+| **Atores** | Cliente |
+| **Pré-condição** | Cliente autenticado no sistema e aplicativo disponível para uso. |
+| **Pós-condição** | Pedido registrado com sucesso, pagamento processado e estoque atualizado. |
+| **Fluxo Principal** | **1. Comprar produtos:**<br>a) Sistema apresenta lista de produtos;<br>b) Cliente seleciona produtos;<br>c) Cliente adiciona ao carrinho;<br>d) Cliente confirma a compra;<br>e) Sistema processa pagamento;<br>f) Sistema registra pedido;<br>g) Sistema atualiza estoque;<br>h) Sistema exibe confirmação da compra. |
+| **Fluxo Alternativo** | **2. Produto com receita obrigatória:**<br>a) Cliente seleciona produto controlado;<br>b) Sistema solicita envio da receita;<br>c) Cliente envia receita;<br>d) Sistema registra receita e continua processo de compra.<br><br>**3. Cancelar compra:**<br>a) Cliente acessa carrinho;<br>b) Cliente remove produtos;<br>c) Sistema atualiza carrinho;<br>d) Cliente pode encerrar processo sem finalizar pedido. |
+| **Fluxo Exceção** | **4. Falha no pagamento:**<br>a) Sistema tenta processar pagamento;<br>b) Ocorre erro na transação;<br>c) Sistema informa falha;<br>d) Cliente pode tentar novamente ou cancelar. |
+
+## UC04 – Enviar Receita
+
+| **Identificação** | **UC04 – Enviar Receita** |
+|---|---|
+| **Função** | Permitir que o cliente envie receita médica para validação de medicamentos controlados. |
+| **Atores** | Cliente, Farmacêutico |
+| **Pré-condição** | Cliente autenticado e medicamento selecionado exige receita. |
+| **Pós-condição** | Receita armazenada e validada no sistema. |
+| **Fluxo Principal** | **1. Enviar receita:**<br>a) Sistema solicita receita;<br>b) Cliente envia imagem ou arquivo;<br>c) Sistema armazena documento;<br>d) Farmacêutico valida receita;<br>e) Sistema libera compra. |
+| **Fluxo Alternativo** | **2. Receita rejeitada:**<br>a) Farmacêutico identifica erro;<br>b) Sistema notifica cliente;<br>c) Cliente pode enviar nova receita. |
+| **Fluxo Exceção** | **3. Arquivo inválido:**<br>a) Sistema não reconhece formato;<br>b) Sistema solicita novo envio. |
+
+## UC05 – Pedido via Telefone
+
+| **Identificação** | **UC05 – Pedido via Telefone** |
+|---|---|
+| **Função** | Permitir que pedidos sejam registrados no sistema por meio de atendimento telefônico realizado pela farmácia. |
+| **Atores** | Atendente |
+| **Pré-condição** | Sistema disponível e cliente informado pelo telefone. |
+| **Pós-condição** | Pedido registrado no sistema e associado ao cliente. |
+| **Fluxo Principal** | **1. Registrar pedido:**<br>a) Atendente acessa sistema;<br>b) Atendente identifica cliente;<br>c) Atendente seleciona produtos;<br>d) Sistema registra pedido;<br>e) Sistema confirma registro. |
+| **Fluxo Alternativo** | **2. Cliente não cadastrado:**<br>a) Atendente cadastra cliente;<br>b) Sistema registra novo cliente;<br>c) Processo continua normalmente. |
+| **Fluxo Exceção** | **3. Produto indisponível:**<br>a) Sistema identifica falta de estoque;<br>b) Atendente informa cliente;<br>c) Pedido pode ser alterado ou cancelado. |
+
+## UC06 – Acompanhar Pedido
+
+| **Identificação** | **UC06 – Acompanhar Pedido** |
+|---|---|
+| **Função** | Permitir que o cliente acompanhe o status do pedido realizado. |
+| **Atores** | Cliente |
+| **Pré-condição** | Pedido previamente registrado no sistema. |
+| **Pós-condição** | Cliente visualiza status atualizado do pedido. |
+| **Fluxo Principal** | **1. Consultar pedido:**<br>a) Cliente acessa área de pedidos;<br>b) Sistema exibe lista;<br>c) Cliente seleciona pedido;<br>d) Sistema apresenta status. |
+| **Fluxo Alternativo** | **2. Atualização automática:**<br>a) Sistema atualiza status em tempo real;<br>b) Sistema notifica cliente. |
+| **Fluxo Exceção** | **3. Pedido não encontrado:**<br>a) Sistema não localiza pedido;<br>b) Sistema informa erro. |
+
+## UC07 – Histórico de Compras
+
+| **Identificação** | **UC07 – Histórico de Compras** |
+|---|---|
+| **Função** | Permitir que o cliente visualize compras anteriores e facilite recompras. |
+| **Atores** | Cliente |
+| **Pré-condição** | Cliente autenticado no sistema. |
+| **Pós-condição** | Histórico exibido corretamente ao usuário. |
+| **Fluxo Principal** | **1. Visualizar histórico:**<br>a) Cliente acessa histórico;<br>b) Sistema apresenta pedidos anteriores;<br>c) Cliente seleciona pedido;<br>d) Sistema exibe detalhes. |
+| **Fluxo Alternativo** | **2. Repetir compra:**<br>a) Cliente seleciona pedido anterior;<br>b) Sistema adiciona itens ao carrinho;<br>c) Cliente pode finalizar nova compra. |
+| **Fluxo Exceção** | **3. Histórico vazio:**<br>a) Sistema não encontra pedidos;<br>b) Sistema informa cliente. |
+
 # 1 Product Owner (PO)
 ## Caio Arnoni 
 
