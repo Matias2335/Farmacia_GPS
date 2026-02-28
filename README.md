@@ -159,7 +159,7 @@
 
 ## UC01 – Cadastro 
 
-| **Identificação** | **UC01 – Cadastro * |
+| **Identificação** | **UC01 – Cadastro**|
 |---|---|
 | **Função** | Permitir que o cliente crie uma conta e acesse o sistema por meio de autenticação segura. |
 | **Atores** | Cliente |
