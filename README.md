@@ -155,7 +155,8 @@
 
 ## - Diagrama de Casos de Usos
 
-<img width="902" height="681" alt="image" src="https://github.com/user-attachments/assets/aa8cf47c-ebf2-4cc2-abb8-dbef84b27be2" />
+<img width="918" height="691" alt="image" src="https://github.com/user-attachments/assets/4118f487-1fcf-41fd-9319-36be0eba4b25" />
+
 
 
 ## UC01 – Cadastro 
