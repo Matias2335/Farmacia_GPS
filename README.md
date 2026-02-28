@@ -158,10 +158,6 @@
 <<img width="696" height="662" alt="image" src="https://github.com/user-attachments/assets/085bd43e-87a8-4fe4-a1f2-c725ce24baf1" />
 
 
-
-
-
-
 ## UC01 – Cadastro
 
 | **Identificação** | **UC01 – Cadastro** |
@@ -222,7 +218,6 @@
 | **Fluxo Principal** | **1. Realizar pedido:**<br>a) Cliente seleciona produtos;<br>b) Cliente adiciona ao carrinho;<br>c) Cliente confirma compra;<br>d) Sistema processa pagamento;<br>e) Sistema registra pedido;<br>f) Sistema confirma pedido. |
 | **Fluxo Alternativo** | **2. Produto com receita:**<br>a) Sistema solicita receita;<br>b) Cliente envia documento;<br>c) Processo continua. |
 | **Fluxo Exceção** | **3. Falha no pagamento:**<br>a) Sistema informa erro;<br>b) Cliente tenta novamente ou cancela. |
-## UC06 – Acompanhar Pedido
 
 ## UC06 – Pedido via Telefone
 
