@@ -151,6 +151,13 @@
 
 [Histórias de Usuário_LAB03.pdf](https://github.com/user-attachments/files/25459607/Historias.de.Usuario_LAB03.pdf)
 
+# Sprint Backlog
+
+## - Diagrama de Casos de Usos
+
+<img width="923" height="678" alt="image" src="https://github.com/user-attachments/assets/9c0ed138-d26c-426d-a580-d1361cf0875c" />
+
+
 
 # 1 Product Owner (PO)
 ## Caio Arnoni 
