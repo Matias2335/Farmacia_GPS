@@ -157,6 +157,17 @@
 
 <img width="923" height="678" alt="image" src="https://github.com/user-attachments/assets/9c0ed138-d26c-426d-a580-d1361cf0875c" />
 
+## UC01 – Cadastro 
+
+| **Identificação** | **UC01 – Cadastro * |
+|---|---|
+| **Função** | Permitir que o cliente crie uma conta e acesse o sistema por meio de autenticação segura. |
+| **Atores** | Cliente |
+| **Pré-condição** | Aplicativo disponível para uso e cliente não autenticado. |
+| **Pós-condição** | Cliente autenticado no sistema e acesso liberado às funcionalidades. |
+| **Fluxo Principal** | **1. Criar conta:**<br>a) Cliente acessa tela de cadastro;<br>b) Cliente informa dados pessoais;<br>c) Sistema valida informações;<br>d) Sistema registra conta;<br>e) Sistema confirma cadastro.<br><br>**2. Login:**<br>a) Cliente informa credenciais;<br>b) Sistema valida dados;<br>c) Sistema autentica usuário;<br>d) Sistema redireciona para tela inicial. |
+| **Fluxo Alternativo** | **3. Recuperar senha:**<br>a) Cliente solicita recuperação;<br>b) Sistema envia instruções;<br>c) Cliente redefine senha;<br>d) Sistema confirma alteração. |
+| **Fluxo Exceção** | **4. Dados inválidos:**<br>a) Sistema identifica erro nos dados;<br>b) Sistema exibe mensagem;<br>c) Cliente corrige informações. |
 
 
 # 1 Product Owner (PO)
@@ -168,5 +179,3 @@
 # 3 Equipe de Desenvolvimento
 ## Guilherme Matias
 
->>>>>>> f9644d6b6c723f33cd20821418b89f40ab731df0
->>>>>>> b5ac430f10c1706d0f39492ad4db0b1319ac1118
