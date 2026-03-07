@@ -161,7 +161,9 @@ https://trello.com/invite/b/6999d5e0c20666d0bcb56176/ATTIc466a9c817bbc71ecafc0e7
 
 ## - Diagrama de Casos de Usos
 
-<img width="749" height="682" alt="image" src="https://github.com/user-attachments/assets/64b56307-405f-4d22-bee4-ed55766e1db4" />
+<img width="583" height="670" alt="image" src="https://github.com/user-attachments/assets/c577b29c-2a9f-4caf-9661-227278b9f694" />
+
+
 
 
 
