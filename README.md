@@ -1,5 +1,11 @@
 # Farmacia_GPS
 
+## Veja nosso Trello 
+
+https://trello.com/invite/b/6999d5e0c20666d0bcb56176/ATTIc466a9c817bbc71ecafc0e73feb334edA04F7E99/farmacia-cuida-product-backlog
+
+---
+
 ## 1 Problemas
 * Dificuldade de manuseio no aplicativo para pessoas mais idosas
 
