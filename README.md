@@ -284,4 +284,7 @@ https://trello.com/invite/b/6999d5e0c20666d0bcb56176/ATTIc466a9c817bbc71ecafc0e7
 
 # 3 Equipe de Desenvolvimento
 ## Guilherme Matias
+# kanban
+<img width="1844" height="822" alt="image" src="https://github.com/user-attachments/assets/7e5522f7-7132-40ed-8619-7812494f385b" />
+
 
