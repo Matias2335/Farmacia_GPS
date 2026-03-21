@@ -1,4 +1,4 @@
-# Farmacia_GPS
+# Farmácia Cuida+
 
 ## Veja nosso Trello 
 
