@@ -196,21 +196,34 @@ https://matias2335.github.io/Farmacia_GPS/
 | **Fluxo Exceção** | **3. Credenciais inválidas:**<br>a) Sistema identifica erro;<br>b) Sistema informa falha;<br>c) Cliente tenta novamente. |
 
 
-## UC03 – Catálogo de Medicamentos
+## UC03 – Visualizar Catálogo
 
-| **Identificação** | **UC03 – Catálogo de Medicamentos** |
+| **Identificação** | **UC03 – Visualizar Catálogo** |
 |---|---|
-| **Função** | Permitir que o cliente visualize medicamentos disponíveis. |
+| **Função** | Permitir que o cliente visualize medicamentos e produtos disponíveis no sistema. |
 | **Atores** | Cliente |
 | **Pré-condição** | Cliente autenticado no sistema. |
-| **Pós-condição** | Produtos exibidos para consulta. |
-| **Fluxo Principal** | **1. Visualizar catálogo:**<br>a) Cliente acessa catálogo;<br>b) Sistema apresenta lista de medicamentos;<br>c) Cliente visualiza detalhes. |
-| **Fluxo Alternativo** | **2. Buscar medicamento:**<br>a) Cliente realiza pesquisa;<br>b) Sistema filtra resultados;<br>c) Sistema apresenta produtos encontrados. |
-| **Fluxo Exceção** | **3. Produto indisponível:**<br>a) Sistema informa ausência em estoque. |
+| **Pós-condição** | Lista de produtos exibida para consulta. |
+| **Fluxo Principal** | **1. Visualizar catálogo:**<br>a) Cliente acessa a seção de catálogo;<br>b) Sistema apresenta lista de medicamentos e produtos;<br>c) Cliente visualiza detalhes dos itens. |
+| **Fluxo Alternativo** | **2. Filtrar produtos:**<br>a) Cliente seleciona categoria ou tipo de produto;<br>b) Sistema atualiza a lista exibida conforme o filtro. |
+| **Fluxo Exceção** | **3. Catálogo indisponível:**<br>a) Sistema informa erro ao carregar os produtos. |
 
-## UC04 – Envio de Receita Médica
+## UC04 – Buscar no Catálogo
 
-| **Identificação** | **UC04 – Envio de Receita Médica** |
+| **Identificação** | **UC04 – Buscar no Catálogo** |
+|---|---|
+| **Função** | Permitir que o cliente encontre produtos utilizando filtros de busca. |
+| **Atores** | Cliente |
+| **Pré-condição** | Cliente acessando o catálogo de produtos. |
+| **Pós-condição** | Produtos correspondentes aos filtros exibidos. |
+| **Fluxo Principal** | **1. Buscar produto:**<br>a) Cliente acessa campo de busca;<br>b) Cliente informa nome, laboratório ou outro filtro;<br>c) Sistema processa a pesquisa;<br>d) Sistema apresenta os resultados encontrados. |
+| **Fluxo Alternativo** | **2. Refinar busca:**<br>a) Cliente adiciona ou altera filtros de pesquisa;<br>b) Sistema atualiza os resultados exibidos. |
+| **Fluxo Exceção** | **3. Nenhum resultado encontrado:**<br>a) Sistema informa que não há produtos correspondentes à busca. |
+
+
+## UC05 – Envio de Receita Médica
+
+| **Identificação** | **UC05 – Envio de Receita Médica** |
 |---|---|
 | **Função** | Permitir que o cliente envie receita para medicamentos controlados. |
 | **Atores** | Cliente |
@@ -220,9 +233,21 @@ https://matias2335.github.io/Farmacia_GPS/
 | **Fluxo Alternativo** | **2. Substituir receita:**<br>a) Cliente envia nova versão;<br>b) Sistema atualiza registro. |
 | **Fluxo Exceção** | **3. Arquivo inválido:**<br>a) Sistema rejeita formato;<br>b) Cliente envia novamente. |
 
-## UC05 – Pedido via Aplicativo
+## UC06 – Validação de Receita Médica
 
-| **Identificação** | **UC05 – Pedido via Aplicativo** |
+| **Identificação** | **UC06 – Validação de Receita Médica** |
+|---|---|
+| **Função** | Permitir que o farmacêutico valide receitas médicas para liberação de medicamentos controlados. |
+| **Atores** | Farmacêutico |
+| **Pré-condição** | Receita médica apresentada pelo cliente. |
+| **Pós-condição** | Receita validada ou recusada pelo sistema. |
+| **Fluxo Principal** | **1. Validar receita:**<br>a) Farmacêutico acessa a funcionalidade de validação;<br>b) Farmacêutico insere ou verifica os dados da receita;<br>c) Sistema verifica a validade das informações;<br>d) Sistema confirma a validação da receita. |
+| **Fluxo Alternativo** | **2. Dados incompletos:**<br>a) Sistema identifica ausência de informações;<br>b) Sistema solicita correção ou complemento da receita. |
+| **Fluxo Exceção** | **3. Receita inválida:**<br>a) Sistema detecta inconsistência ou irregularidade;<br>b) Sistema bloqueia a validação e informa o erro. |
+
+## UC07 – Pedido via Aplicativo
+
+| **Identificação** | **UC07 – Pedido via Aplicativo** |
 |---|---|
 | **Função** | Permitir que o cliente realize compras pelo aplicativo. |
 | **Atores** | Cliente |
@@ -232,9 +257,9 @@ https://matias2335.github.io/Farmacia_GPS/
 | **Fluxo Alternativo** | **2. Produto com receita:**<br>a) Sistema solicita receita;<br>b) Cliente envia documento;<br>c) Processo continua. |
 | **Fluxo Exceção** | **3. Falha no pagamento:**<br>a) Sistema informa erro;<br>b) Cliente tenta novamente ou cancela. |
 
-## UC06 – Pedido via Telefone
+## UC08 – Pedido via Telefone
 
-| **Identificação** | **UC06 – Pedido via Telefone** |
+| **Identificação** | **UC08 – Pedido via Telefone** |
 |---|---|
 | **Função** | Permitir que pedidos sejam registrados por atendimento telefônico. |
 | **Atores** | Atendente |
@@ -244,9 +269,9 @@ https://matias2335.github.io/Farmacia_GPS/
 | **Fluxo Alternativo** | **2. Cliente não cadastrado:**<br>a) Atendente realiza cadastro;<br>b) Sistema registra cliente. |
 | **Fluxo Exceção** | **3. Produto indisponível:**<br>a) Sistema informa falta de estoque. |
 
-## UC07 – Rastreamento de Pedido
+## UC09 – Rastreamento de Pedido
 
-| **Identificação** | **UC07 – Rastreamento de Pedido** |
+| **Identificação** | **UC09 – Rastreamento de Pedido** |
 |---|---|
 | **Função** | Permitir que o cliente acompanhe o status do pedido. |
 | **Atores** | Cliente |
@@ -256,9 +281,9 @@ https://matias2335.github.io/Farmacia_GPS/
 | **Fluxo Alternativo** | **2. Atualização automática:**<br>a) Sistema atualiza status em tempo real. |
 | **Fluxo Exceção** | **3. Pedido não encontrado:**<br>a) Sistema informa erro. |
 
-## UC08 – Histórico de Compras
+## UC10 – Histórico de Compras
 
-| **Identificação** | **UC08 – Histórico de Compras** |
+| **Identificação** | **UC10 – Histórico de Compras** |
 |---|---|
 | **Função** | Permitir que o cliente visualize compras anteriores. |
 | **Atores** | Cliente |
@@ -268,23 +293,23 @@ https://matias2335.github.io/Farmacia_GPS/
 | **Fluxo Alternativo** | **2. Repetir compra:**<br>a) Cliente seleciona pedido;<br>b) Sistema adiciona itens ao carrinho. |
 | **Fluxo Exceção** | **3. Histórico vazio:**<br>a) Sistema informa ausência de pedidos. |
 
-## UC09 – Validar Receita
+## UC11 – Realizar pagamento
 
-| **Identificação** | **UC09 – Validar Receita** |
+| **Identificação** | **UC11 – Realizar pagamento** |
 |---|---|
-| **Função** | Permitir que o farmacêutico valide receitas enviadas pelos clientes. |
-| **Atores** | Farmacêutico |
-| **Pré-condição** | Receita previamente enviada pelo cliente. |
-| **Pós-condição** | Receita aprovada ou rejeitada no sistema. |
-| **Fluxo Principal** | **1. Validar receita:**<br>a) Farmacêutico acessa receitas pendentes;<br>b) Sistema apresenta documentos;<br>c) Farmacêutico analisa receita;<br>d) Farmacêutico aprova ou rejeita;<br>e) Sistema registra decisão. |
-| **Fluxo Alternativo** | **2. Solicitar nova receita:**<br>a) Farmacêutico rejeita documento;<br>b) Sistema notifica cliente. |
-| **Fluxo Exceção** | **3. Documento ilegível:**<br>a) Sistema informa erro;<br>b) Cliente envia novamente. |
+| **Função** | Permitir que o cliente realize o pagamento de um serviço ou produto dentro do sistema. |
+| **Atores** | Cliente |
+| **Pré-condição** | Cliente autenticado no sistema e com um serviço ou produto selecionado para pagamento. |
+| **Pós-condição** | Pagamento registrado no sistema e confirmação exibida ao cliente. |
+| **Fluxo Principal** | **1. Realizar pagamento:**<br>a) Cliente acessa a opção de pagamento;<br>b) Sistema exibe o resumo da cobrança;<br>c) Cliente escolhe a forma de pagamento;<br>d) Cliente confirma o pagamento;<br>e) Sistema processa a transação;<br>f) Sistema registra o pagamento e exibe confirmação. |
+| **Fluxo Alternativo** | **2. Forma de pagamento inválida:**<br>a) Sistema detecta problema com o método de pagamento selecionado;<br>b) Sistema informa erro ao cliente;<br>c) Cliente escolhe outra forma de pagamento. |
+| **Fluxo Exceção** | **3. Falha na transação:**<br>a) Sistema não consegue concluir o processamento do pagamento;<br>b) Sistema informa falha na operação;<br>c) Cliente pode tentar novamente ou escolher outro método de pagamento. |
 
 # 1 Product Owner (PO)
 ## Caio Arnoni 
 
 # 2 Scrum Master (SM)
-## Taina cunha
+## Tainá Cunha
 
 # 3 Equipe de Desenvolvimento
 ## Guilherme Matias
