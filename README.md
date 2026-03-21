@@ -293,9 +293,9 @@ https://matias2335.github.io/Farmacia_GPS/
 | **Fluxo Alternativo** | **2. Repetir compra:**<br>a) Cliente seleciona pedido;<br>b) Sistema adiciona itens ao carrinho. |
 | **Fluxo Exceção** | **3. Histórico vazio:**<br>a) Sistema informa ausência de pedidos. |
 
-## UC11 – Realizar pagamento
+## UC11 – Realizar Pagamento
 
-| **Identificação** | **UC11 – Realizar pagamento** |
+| **Identificação** | **UC11 – Realizar Pagamento** |
 |---|---|
 | **Função** | Permitir que o cliente realize o pagamento de um serviço ou produto dentro do sistema. |
 | **Atores** | Cliente |
