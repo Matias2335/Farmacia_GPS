@@ -10,7 +10,7 @@ https://trello.com/invite/b/6999d5e0c20666d0bcb56176/ATTIc466a9c817bbc71ecafc0e7
 
 https://matias2335.github.io/Farmacia_GPS/
 
-## 1 Problemas
+## 1. Problemas
 * Dificuldade de manuseio no aplicativo para pessoas mais idosas
 
 * Falta de praticidade para comprar remédios com receita médica
@@ -305,15 +305,18 @@ https://matias2335.github.io/Farmacia_GPS/
 | **Fluxo Alternativo** | **2. Forma de pagamento inválida:**<br>a) Sistema detecta problema com o método de pagamento selecionado;<br>b) Sistema informa erro ao cliente;<br>c) Cliente escolhe outra forma de pagamento. |
 | **Fluxo Exceção** | **3. Falha na transação:**<br>a) Sistema não consegue concluir o processamento do pagamento;<br>b) Sistema informa falha na operação;<br>c) Cliente pode tentar novamente ou escolher outro método de pagamento. |
 
-# 1 Product Owner (PO)
-## Caio Arnoni 
+# Planning Poker e Escopo da Sprint 2
+[Planning Poker e Escopo da Sprint 2.pdf](https://github.com/user-attachments/files/26647244/Planning.Poker.e.Escopo.da.Sprint.2.pdf)<br>
 
-# 2 Scrum Master (SM)
-## Tainá Cunha
+## Product Owner (PO)
+### Caio Arnoni
 
-# 3 Equipe de Desenvolvimento
-## Guilherme Matias
-# kanban
+## Scrum Master (SM)
+### Tainá Cunha
+
+## Equipe de Desenvolvimento
+### Guilherme Matias<br>
+### kanban
 <img width="1844" height="822" alt="image" src="https://github.com/user-attachments/assets/7e5522f7-7132-40ed-8619-7812494f385b" />
 
 
