@@ -4,11 +4,7 @@
 
 https://trello.com/invite/b/6999d5e0c20666d0bcb56176/ATTIc466a9c817bbc71ecafc0e73feb334edA04F7E99/farmacia-cuida-product-backlog
 
-## Kanban
-
-https://matias2335.github.io/Farmacia_GPS/
-
-## Kanban PT2
+## Kanban da Sprint 2
 https://trello.com/invite/b/69e3999e65f6f4383a619cd5/ATTI010622e4aff7e828c97d510c15ead2fc0F6D4B3A/kanban-quadro-modelo
 
 ## Kanban de Riscos
@@ -313,8 +309,8 @@ https://trello.com/invite/b/69e39bc6d362b3e6d01c681d/ATTIfde3cd76324abd37a7d34e1
 # Planning Poker e Escopo da Sprint 2
 [Planning Poker e Escopo da Sprint 2.pdf](https://github.com/user-attachments/files/26647244/Planning.Poker.e.Escopo.da.Sprint.2.pdf)<br>
 
-# Kanban pt2
-<img width="1188" height="525" alt="image" src="https://github.com/user-attachments/assets/8096edfb-d77d-45cd-b3de-6b6a4b9a797e" />
+# Kanban Kanban da Sprint 2
+<img width="1353" height="543" alt="WhatsApp Image 2026-04-18 at 12 59 23" src="https://github.com/user-attachments/assets/fd83ea3f-060b-4a08-b98c-d093f070019e" />
 
 # Kanban de Riscos
 <img width="1137" height="826" alt="image" src="https://github.com/user-attachments/assets/f4d160a3-7f27-462f-ab11-a6590e9b720f" />
@@ -328,7 +324,5 @@ https://trello.com/invite/b/69e39bc6d362b3e6d01c681d/ATTIfde3cd76324abd37a7d34e1
 
 ## Equipe de Desenvolvimento
 ### Guilherme Matias<br>
-### kanban
-<img width="1844" height="822" alt="image" src="https://github.com/user-attachments/assets/7e5522f7-7132-40ed-8619-7812494f385b" />
 
 
