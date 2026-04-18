@@ -4,11 +4,13 @@
 
 https://trello.com/invite/b/6999d5e0c20666d0bcb56176/ATTIc466a9c817bbc71ecafc0e73feb334edA04F7E99/farmacia-cuida-product-backlog
 
----
-
-## KABAN
+## Kanban
 
 https://matias2335.github.io/Farmacia_GPS/
+
+## Kanban de Riscos
+https://trello.com/invite/b/69e39bc6d362b3e6d01c681d/ATTIfde3cd76324abd37a7d34e13b407b1e8ACD32BD1/kanban-de-riscos
+<br>(Print ao final do documento)
 
 ## 1. Problemas
 * Dificuldade de manuseio no aplicativo para pessoas mais idosas
@@ -307,6 +309,10 @@ https://matias2335.github.io/Farmacia_GPS/
 
 # Planning Poker e Escopo da Sprint 2
 [Planning Poker e Escopo da Sprint 2.pdf](https://github.com/user-attachments/files/26647244/Planning.Poker.e.Escopo.da.Sprint.2.pdf)<br>
+
+# Kanban de Riscos
+<img width="1137" height="826" alt="image" src="https://github.com/user-attachments/assets/f4d160a3-7f27-462f-ab11-a6590e9b720f" />
+
 
 ## Product Owner (PO)
 ### Caio Arnoni
