@@ -6,6 +6,7 @@ https://trello.com/invite/b/6999d5e0c20666d0bcb56176/ATTIc466a9c817bbc71ecafc0e7
 
 ## Kanban da Sprint 2
 https://trello.com/invite/b/69e3999e65f6f4383a619cd5/ATTI010622e4aff7e828c97d510c15ead2fc0F6D4B3A/kanban-quadro-modelo
+<br>(Print ao final do documento)
 
 ## Kanban de Riscos
 https://trello.com/invite/b/69e39bc6d362b3e6d01c681d/ATTIfde3cd76324abd37a7d34e13b407b1e8ACD32BD1/kanban-de-riscos
