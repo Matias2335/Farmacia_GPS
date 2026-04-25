@@ -310,11 +310,23 @@ https://trello.com/invite/b/69e39bc6d362b3e6d01c681d/ATTIfde3cd76324abd37a7d34e1
 # Planning Poker e Escopo da Sprint 2
 [Planning Poker e Escopo da Sprint 2.pdf](https://github.com/user-attachments/files/26647244/Planning.Poker.e.Escopo.da.Sprint.2.pdf)<br>
 
-# Kanban Kanban da Sprint 2
+# Kanban da Sprint 2
 <img width="1353" height="543" alt="WhatsApp Image 2026-04-18 at 12 59 23" src="https://github.com/user-attachments/assets/fd83ea3f-060b-4a08-b98c-d093f070019e" />
 
 # Kanban de Riscos
 <img width="1137" height="826" alt="image" src="https://github.com/user-attachments/assets/f4d160a3-7f27-462f-ab11-a6590e9b720f" />
+
+
+# Kanban atualizado Sprint 2 
+<img width="1063" height="510" alt="image" src="https://github.com/user-attachments/assets/8876871d-ec11-49c8-8704-771b9443d5d8" />
+
+# Kanban de Risco atualizada 
+<img width="850" height="477" alt="image" src="https://github.com/user-attachments/assets/49268cd6-6a29-4f5c-a7ea-a283b7a8cae9" />
+
+## Execução e Monitoramento da Sprint 2 (PFD)
+
+[Relatório Parcial.pdf](https://github.com/user-attachments/files/27086501/Relatorio.Parcial.pdf)
+
 
 
 ## Product Owner (PO)
