@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resetar Senha - Farma Cuida+</title>
+</head>
+<body>
+
+<h2>🔐 Nova senha</h2>
+
+<input type="password" id="senha" placeholder="Digite nova senha" />
+<button onclick="resetar()">Salvar</button>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+
+<script>
+const supabase = supabase.createClient(
+  'SUA_URL',
+  'SUA_ANON_KEY'
+);
+
+async function resetar() {
+  const senha = document.getElementById('senha').value;
+
+  const { error } = await supabase.auth.updateUser({
+    password: senha
+  });
+
+  if (error) {
+    alert('Erro: ' + error.message);
+  } else {
+    alert('Senha atualizada com sucesso!');
+  }
+}
+</script>
+
+</body>
+</html>
